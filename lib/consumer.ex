@@ -1,4 +1,4 @@
-defmodule Amqp.Consumer
+defmodule Amqp.Consumer do
   import Record 
   defrecord Amqp.Consumer, amqp: nil do
     def start(uri,fun,self) do
